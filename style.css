@@ -246,6 +246,20 @@ hr{
     padding-bottom: 20px;
 }
 
+/* UP BUTTON */
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 900px){
@@ -309,3 +323,4 @@ hr{
         grid-template-columns:repeat(2, 1fr);
     }
 }
+
